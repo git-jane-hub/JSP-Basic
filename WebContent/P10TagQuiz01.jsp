@@ -20,7 +20,7 @@
 			each = 0;
 			total++;
 			each++;
-			// 난수를 새로고침할 때마다 받으려면 반복문 내부에 작성해야함 
+			// 난수를 새로고침할 때마다 받으려면 반복문 내부에 작성해야함 - 아님, 스크립틀릿 내부에 작성해야함(수정 필요)
 			while(true){
 				luckNumber = (int)(Math.random() * 10) + 1;
 				luckColor = (Math.random());

@@ -23,7 +23,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Lotto</title>
+<title>Lotto 추첨기</title>
 </head>
 <body>
 	<h2>로또번호 생성 결과</h2>
