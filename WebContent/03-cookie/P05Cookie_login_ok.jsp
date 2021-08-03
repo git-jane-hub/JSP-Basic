@@ -28,7 +28,7 @@
 		if(id.equals("abc1234") && pw.equals("aaa1111")){
 			// 로그인 처리를 위한 쿠키 발급 - 로그인 기준이 아이디와 비밀번호 모두 만족해야 하기 때문에 아이디에만 쿠키를 발급해도 됨 
 			Cookie idCookie = new Cookie("user_id", id);	// 뒤의 value값을 변수로 작성해야 무슨 값이 들어오든 처리 가능 
-			idCookie.setMaxAge(20);
+			idCookie.setMaxAge(60 * 30);
 			response.addCookie(idCookie);
 			
 			// 체크박스가 체크되어 있을 경우, 아이디와 비밀번호 자동입력을 위한 쿠키 발급 
