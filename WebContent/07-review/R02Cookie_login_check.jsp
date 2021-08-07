@@ -36,7 +36,7 @@
 			}
 			response.sendRedirect("R03Cookie_login_welcome.jsp");
 		}else{
-			out.pritnln("로그인에 실패했습니다.");
+			out.println("로그인에 실패했습니다.");
 			out.println("<a href = \"R01Cookie_login_form.jsp\">로그인 창으로 이동</a>");
 		}
 	%>

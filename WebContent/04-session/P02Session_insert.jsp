@@ -13,7 +13,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>session check</title>
 </head>
 <body>
 	<a href = "P01Session_check.jsp">세션 확인하기</a>
